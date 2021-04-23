@@ -1,0 +1,15 @@
+C:\Users\Jacopo Montella\source\repos\Interfacce_Scatole\Interfacce_Scatole\bin\Debug\Interfacce_Scatole.exe.config
+C:\Users\Jacopo Montella\source\repos\Interfacce_Scatole\Interfacce_Scatole\bin\Debug\Interfacce_Scatole.exe
+C:\Users\Jacopo Montella\source\repos\Interfacce_Scatole\Interfacce_Scatole\bin\Debug\Interfacce_Scatole.pdb
+C:\Users\Jacopo Montella\source\repos\Interfacce_Scatole\Interfacce_Scatole\obj\Debug\Interfacce_Scatole.csprojAssemblyReference.cache
+C:\Users\Jacopo Montella\source\repos\Interfacce_Scatole\Interfacce_Scatole\obj\Debug\MainWindow.g.cs
+C:\Users\Jacopo Montella\source\repos\Interfacce_Scatole\Interfacce_Scatole\obj\Debug\App.g.cs
+C:\Users\Jacopo Montella\source\repos\Interfacce_Scatole\Interfacce_Scatole\obj\Debug\Interfacce_Scatole_MarkupCompile.cache
+C:\Users\Jacopo Montella\source\repos\Interfacce_Scatole\Interfacce_Scatole\obj\Debug\Interfacce_Scatole_MarkupCompile.lref
+C:\Users\Jacopo Montella\source\repos\Interfacce_Scatole\Interfacce_Scatole\obj\Debug\MainWindow.baml
+C:\Users\Jacopo Montella\source\repos\Interfacce_Scatole\Interfacce_Scatole\obj\Debug\Interfacce_Scatole.g.resources
+C:\Users\Jacopo Montella\source\repos\Interfacce_Scatole\Interfacce_Scatole\obj\Debug\Interfacce_Scatole.Properties.Resources.resources
+C:\Users\Jacopo Montella\source\repos\Interfacce_Scatole\Interfacce_Scatole\obj\Debug\Interfacce_Scatole.csproj.GenerateResource.cache
+C:\Users\Jacopo Montella\source\repos\Interfacce_Scatole\Interfacce_Scatole\obj\Debug\Interfacce_Scatole.csproj.CoreCompileInputs.cache
+C:\Users\Jacopo Montella\source\repos\Interfacce_Scatole\Interfacce_Scatole\obj\Debug\Interfacce_Scatole.exe
+C:\Users\Jacopo Montella\source\repos\Interfacce_Scatole\Interfacce_Scatole\obj\Debug\Interfacce_Scatole.pdb

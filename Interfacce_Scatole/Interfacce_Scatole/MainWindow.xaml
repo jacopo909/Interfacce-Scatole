@@ -1,0 +1,91 @@
+﻿<Window x:Class="Interfacce_Scatole.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Interfacce_Scatole"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel Height="420" Width="790">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="260"/>
+                <ColumnDefinition Width="260"/>
+                <ColumnDefinition Width="260"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="150" />
+                <RowDefinition Height="270" />
+            </Grid.RowDefinitions>
+            <StackPanel Grid.Row="0" Grid.Column="0" Height="140" Width="250">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="125" />
+                        <ColumnDefinition Width="125" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="70"/>
+                        <RowDefinition Height="35" />
+                        <RowDefinition Height="35" />
+                    </Grid.RowDefinitions>
+                    <Label Height="25" Width="80" Grid.Row="0" Content="Contenitore" />
+                    <ComboBox x:Name="cmbContenitori" Height="25" Width="100" Grid.Row="0" Grid.Column="1"  />
+                    <Label Height="25" Width="90" Grid.Row="1" Content="ID Contenitore" />
+                    <TextBox x:Name="txtIDContenitore" Height="25" Width="90" Grid.Row="2" Background="Gray"/>
+                    <Button x:Name="btnIDContenitore" Height="25" Width="90" Grid.Row="2" Grid.Column="1" Content="Aggiungi" Click="btnIDContenitore_Click" />
+                </Grid>
+            </StackPanel>
+            <StackPanel Grid.Row="0" Grid.Column="1" Height="140" Width="250">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="125" />
+                        <ColumnDefinition Width="125" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="70"/>
+                        <RowDefinition Height="35" />
+                        <RowDefinition Height="35" />
+                    </Grid.RowDefinitions>
+                    <Label Height="25" Width="50" Grid.Row="0" Content="Figura" />
+                    <ComboBox x:Name="cmbFigure"  Height="25" Width="100" Grid.Row="0" Grid.Column="1" SelectionChanged="cmbFigure_SelectionChanged"  />
+                    <Label x:Name="lbParametro" Height="25" Width="120" Grid.Row="1" Content="Seleziona una figura" HorizontalContentAlignment="Center"/>
+                    <TextBox x:Name="txtParametro" Height="25" Width="90" Grid.Row="2" Background="Gray"/>
+                    <Button x:Name="btnAggiungi" Height="25" Width="90" Grid.Row="2" Grid.Column="1" Content="Aggiungi"  Click="btnAggiungiFigura_Click" />
+                </Grid>
+            </StackPanel>
+            <StackPanel Grid.Row="0" Grid.Column="2" Height="140" Width="250">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="125" />
+                        <ColumnDefinition Width="125" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="70"/>
+                        <RowDefinition Height="35" />
+                        <RowDefinition Height="35" />
+                    </Grid.RowDefinitions>
+                    <Label Height="25" Width="50" Grid.Row="0" Content="Politica" />
+                    <ComboBox x:Name="cmbPolitiche"  Height="25" Width="100" Grid.Row="0" Grid.Column="1" />
+                    <Label Height="25" Width="50" Grid.Row="1" Content="Soglia" />
+                    <TextBox x:Name="txtSoglia" Height="25" Width="90" Grid.Row="2" Background="Gray"/>
+                    <Button x:Name="btnSoglia" Height="25" Width="90" Grid.Row="2" Grid.Column="1" Content="Applica" Click="btnSoglia_Click" />
+                </Grid>
+            </StackPanel>
+            <StackPanel Grid.Row="1" Grid.Column="0" Height="260" Width="250">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="86" />
+                        <RowDefinition Height="86" />
+                        <RowDefinition Height="86" />
+                    </Grid.RowDefinitions>
+                    <Button x:Name="btnStampa" Grid.Row="0" Height="40" Width="200" Content="Stampa" Click="btnStampa_Click" />
+                    <Button x:Name="btnPulisci" Grid.Row="1" Height="40" Width="200" Content="Pulisci" Click="btnPulisci_Click" />
+                    <Button x:Name="btnEsci" Grid.Row="2" Height="40" Width="200" Content="Esci" Click="btnEsci_Click" />
+                </Grid>
+            </StackPanel>
+            <StackPanel Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2"  Height="260" Width="510">
+                <ListBox x:Name="lb1" Height="260" Width="510" Background="Gray" BorderBrush="Black" BorderThickness="5" />
+            </StackPanel>
+        </Grid>
+    </StackPanel>
+</Window>
